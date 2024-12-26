@@ -1,0 +1,126 @@
+.hidden {
+	display: none;
+}
+body {
+	background: linear-gradient(135deg, #ffbc5f, rgb(219, 65, 65), #e47bfe);
+	/* background: linear-gradient(to bottom, #28a9ff, #4bb7ff, #82cdff,#a0d9ff);  */
+	/* background: linear-gradient(20deg, #C97FF2, #EC4676); */
+}
+.wrapper {
+	width: 85%;
+	justify-self: center;
+	height: 100vh;
+}
+.head {
+	background-color: rgba(255, 255, 255, 0.704);
+	border-radius: 25px;
+}
+.montserrat-weigth {
+	font-family: 'Montserrat', serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+h1 {
+	font-family: 'Montserrat', serif;
+	font-weight: 700;
+	font-style: italic;
+	justify-self: center;
+	padding-top: 20px;
+}
+h3 {
+	font-family: 'Montserrat', serif;
+	font-weight: 700;
+	font-style: italic;
+	justify-self: center;
+	margin-bottom: 8px;
+}
+p {
+	font-family: 'Montserrat', serif;
+	font-weight: 500;
+	font-style: italic;
+	justify-self: center;
+}
+.class {
+	background: linear-gradient(135deg, #ff8f3e, #f8f688);
+	width: 150px;
+	border-radius: 10px;
+	margin: 8px;
+	transition: all 0.3s ease-in-out;
+}
+.classes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.704);
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.class p {
+	justify-self: center;
+}
+.class:hover {
+	background: linear-gradient(45deg, #3ee5ff, #cd88f8);
+	transform: scale(1.1);
+}
+
+.headermenu {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+select {
+	height: 28px;
+	border-radius: 10px;
+	text-align: center;
+	outline: none;
+	transition: all 0.3s ease-in-out;
+}
+select:focus {
+	border: 2px solid rgb(255, 179, 0);
+}
+select:hover {
+	transform: scale(1.1);
+}
+input {
+	height: 24px;
+	border-radius: 10px;
+	border: 1px solid black;
+	text-align: center;
+	width: 130px;
+	margin-left: 3px;
+	margin-right: 3px;
+	outline: none;
+	transition: all 0.3s ease-in-out;
+}
+input:hover {
+	transform: scale(1.1);
+}
+input:focus {
+	border: 2px solid rgb(255, 179, 0);
+}
+button {
+	height: 28px;
+	border-radius: 10px;
+	background: linear-gradient(135deg, #ff4949, #ffc767);
+	border: none;
+	transition: all 0.3s ease-in-out;
+}
+button:hover {
+	transform: scale(1.1);
+}
+button:active {
+	background: linear-gradient(45deg, #3ee5ff, #cd88f8);
+}
+.sub {
+	width: 100px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.SortNum {
+	width: 140px;
+}

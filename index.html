@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Class Container</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&	family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&	family=Yuji+Mai&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class='wrapper'>
+		<div class='head'>
+    <div class="header">
+      <h1>School Classrooms</h1>
+    </div>
+		<div class="headermenu">
+			<select name="" id="filter">
+        <option value="all">All Classes</option>
+        <option value="linguisticsclass">Linguistics classes</option>
+        <option value="itclass">IT classes</option>
+        <option value="mathclass">Math classes</option>
+        <option value="physicclass">Physics classes</option>
+        <option value="bioclass">Biology classes</option>
+      </select>
+      <form class='form'>
+				<input type="number" class='Numclass' id='name' placeholder='ClassNum' min='5' max='11'>
+				<input type="number" class='Num' id='num' placeholder='Pupils' min='21' max='33'>
+				<input type="text" class='Focus' id='focus' placeholder='Focus of Class'>
+				<button class='sub' id='submit' type='submit'>Sort</button>
+			</form>
+			<button type='button' class='SortNum'><i class="fa-solid fa-arrows-up-down"></i> Sort by Pupils</button>
+	</div>
+  </div>
+  <div class='classes'>
+    <div class='class 5 23 bioclass' data-num="5" data-pupils="23" data-focus="Biology">
+      <h3>5-A</h3>
+      <p>Pupils: 23</p>
+      <p>Focus: Biology</p>
+    </div>
+    <div class='class 5 21 physicclass' data-num="5" data-pupils="21" data-focus="Physics">
+      <h3>5-B</h3>
+      <p>Pupils: 21</p>
+      <p>Focus: Physics</p>
+    </div>
+    <div class='class 5 30 mathclass' data-num="5" data-pupils="30" data-focus="Math">
+      <h3>5-C</h3>
+      <p>Pupils: 30</p>
+      <p>Focus: Math</p>
+    </div>
+    <div class='class 5 24 itclass' data-num="5" data-pupils="24" data-focus="IT">
+      <h3>5-D</h3>
+      <p>Pupils: 24</p>
+      <p>Focus: IT</p>
+    </div>
+    <div class='class 5 22 linguisticsclass' data-num="5" data-pupils="22" data-focus="Linguistics">
+      <h3>5-E</h3>
+      <p>Pupils: 22</p>
+      <p>Focus: Linguistics</p>
+    </div>
+    <div class='class 6 32 mathclass' data-num="6" data-pupils="32" data-focus="Math">
+      <h3>6-A</h3>
+      <p>Pupils: 32</p>
+      <p>Focus: Math</p>
+    </div>
+    <div class='class 6 31 bioclass' data-num="6" data-pupils="31" data-focus="Biology">
+      <h3>6-B</h3>
+      <p>Pupils: 31</p>
+      <p>Focus: Biology</p>
+    </div>
+    <div class='class 6 24 linguisticsclass' data-num="6" data-pupils="24" data-focus="Linguistics">
+      <h3>6-C</h3>
+      <p>Pupils: 24</p>
+      <p>Focus: Linguistics</p>
+    </div>
+    <div class='class 6 21 physicclass' data-num="6" data-pupils="21" data-focus="Physics">
+      <h3>6-D</h3>
+      <p>Pupils: 21</p>
+      <p>Focus: Physics</p>
+    </div>
+    <div class='class 6 27 itclass' data-num="6" data-pupils="27" data-focus="IT">
+      <h3>6-E</h3>
+      <p>Pupils: 27</p>
+      <p>Focus: IT</p>
+    </div>
+    <div class='class 7 29 mathclass' data-num="7" data-pupils="29" data-focus="Math">
+      <h3>7-A</h3>
+      <p>Pupils: 29</p>
+      <p>Focus: Math</p>
+    </div>
+    <div class='class 7 33 linguisticsclass' data-num="7" data-pupils="33" data-focus="Linguistics">
+      <h3>7-B</h3>
+      <p>Pupils: 33</p>
+      <p>Focus: Linguistics</p>
+    </div>
+    <div class='class 7 25 bioclass' data-num="7" data-pupils="25" data-focus="Biology">
+      <h3>7-C</h3>
+      <p>Pupils: 25</p>
+      <p>Focus: Biology</p>
+    </div>
+    <div class='class 7 22 physicclass' data-num="7" data-pupils="22" data-focus="Physics">
+      <h3>7-D</h3>
+      <p>Pupils: 22</p>
+      <p>Focus: Physics</p>
+    </div>
+    <div class='class 7 26 itclass' data-num="7" data-pupils="26" data-focus="IT">
+      <h3>7-E</h3>
+      <p>Pupils: 26</p>
+      <p>Focus: IT</p>
+    </div>
+    <div class='class 8 28 itclass' data-num="8" data-pupils="28" data-focus="IT">
+      <h3>8-A</h3>
+      <p>Pupils: 28</p>
+      <p>Focus: IT</p>
+    </div>
+    <div class='class 8 24 linguisticsclass' data-num="8" data-pupils="24" data-focus="Linguistics">
+      <h3>8-B</h3>
+      <p>Pupils: 24</p>
+      <p>Focus: Linguistics</p>
+    </div>
+    <div class='class 8 26 mathclass' data-num="8" data-pupils="26" data-focus="Math">
+      <h3>8-C</h3>
+      <p>Pupils: 26</p>
+      <p>Focus: Math</p>
+    </div>
+    <div class='class 8 22 bioclass' data-num="8" data-pupils="22" data-focus="Biology">
+      <h3>8-D</h3>
+      <p>Pupils: 22</p>
+      <p>Focus: Biology</p>
+    </div>
+    <div class='class 8 25 physicclass' data-num="8" data-pupils="25" data-focus="Physics">
+      <h3>8-E</h3>
+      <p>Pupils: 25</p>
+      <p>Focus: Physics</p>
+    </div>
+    <div class='class 9 27 physicclass' data-num="9" data-pupils="27" data-focus="Physics">
+      <h3>9-A</h3>
+      <p>Pupils: 27</p>
+      <p>Focus: Physics</p>
+    </div>
+    <div class='class 9 23 bioclass' data-num="9" data-pupils="23" data-focus="Biology">
+      <h3>9-B</h3>
+      <p>Pupils: 23</p>
+      <p>Focus: Biology</p>
+    </div>
+    <div class='class 9 21 linguisticsclass' data-num="9" data-pupils="21" data-focus="Linguistics">
+      <h3>9-C</h3>
+      <p>Pupils: 21</p>
+      <p>Focus: Linguistics</p>
+    </div>
+    <div class='class 9 25 itclass' data-num="9" data-pupils="25" data-focus="IT">
+      <h3>9-D</h3>
+      <p>Pupils: 25</p>
+      <p>Focus: IT</p>
+    </div>
+    <div class='class 9 29 mathclass' data-num="9" data-pupils="29" data-focus="Math">
+      <h3>9-E</h3>
+      <p>Pupils: 29</p>
+      <p>Focus: Math</p>
+    </div>
+    <div class='class 10 24 mathclass' data-num="10" data-pupils="24" data-focus="Math">
+      <h3>10-A</h3>
+      <p>Pupils: 24</p>
+      <p>Focus: Math</p>
+    </div>
+    <div class='class 10 26 physicclass' data-num="10" data-pupils="26" data-focus="Physics">
+      <h3>10-B</h3>
+      <p>Pupils: 26</p>
+      <p>Focus: Physics</p>
+    </div>
+    <div class='class 10 22 bioclass' data-num="10" data-pupils="22" data-focus="Biology">
+      <h3>10-C</h3>
+      <p>Pupils: 22</p>
+      <p>Focus: Biology</p>
+    </div>
+    <div class='class 10 28 itclass' data-num="10" data-pupils="28" data-focus="IT">
+      <h3>10-D</h3>
+      <p>Pupils: 28</p>
+      <p>Focus: IT</p>
+    </div>
+    <div class='class 10 23 linguisticsclass' data-num="10" data-pupils="23" data-focus="Linguistics">
+      <h3>10-E</h3>
+      <p>Pupils: 23</p>
+      <p>Focus: Linguistics</p>
+    </div>
+    <div class='class 11 25 linguisticsclass' data-num="11" data-pupils="25" data-focus="Linguistics">
+      <h3>11-A</h3>
+      <p>Pupils: 25</p>
+      <p>Focus: Linguistics</p>
+    </div>
+    <div class='class 11 29 mathclass' data-num="11" data-pupils="29" data-focus="Math">
+      <h3>11-B</h3>
+      <p>Pupils: 29</p>
+      <p>Focus: Math</p>
+    </div>
+    <div class='class 11 21 bioclass' data-num="11" data-pupils="21" data-focus="Biology">
+      <h3>11-C</h3>
+      <p>Pupils: 21</p>
+      <p>Focus: Biology</p>
+    </div>
+    <div class='class 11 27 itclass' data-num="11" data-pupils="27" data-focus="IT">
+      <h3>11-D</h3>
+      <p>Pupils: 27</p>
+      <p>Focus: IT</p>
+    </div>
+    <div class='class 11 24 physicclass' data-num="11" data-pupils="24" data-focus="Physics">
+      <h3>11-E</h3>
+      <p>Pupils: 24</p>
+      <p>Focus: Physics</p>
+    </div>    
+  </div>
+  
+
+	<script src='script.js'></script>
+</body>
+</html>
